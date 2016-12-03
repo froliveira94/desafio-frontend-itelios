@@ -2,9 +2,7 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create(),
     sass = require('gulp-sass'),
     cssmin = require('gulp-cssmin'),
-    rename = require('gulp-rename'),
-    uglify = require('gulp-uglify'),
-    pump = require('pump');
+    rename = require('gulp-rename');
 
 gulp.task('serve', ['sass'], function() {
 
