@@ -1,0 +1,32 @@
+
+button {
+    cursor: pointer;
+}
+
+.button {
+    background-color: $white;
+    border-top: 1px solid $gray-alto;
+    border-right: 1px solid $gray-alto;
+    border-bottom: 1px solid $gray-alto;
+    border-left: 1px solid $gray-alto;    
+    font-size: 2.1em;
+    font-family: 'roboto-condensed-bold';
+    color: $blue-river-bad;
+    padding: 16px 18px 16px 18px;
+
+    i {
+        font-size: 1.2em;
+        margin: 2px 0 0 10px;
+        float: right;
+    }
+
+    &:hover {
+        border-left: 10px solid $orange-blaze;
+        padding: 16px 18px 16px 9px;
+        
+        i {
+            color: $orange-blaze;
+        }
+    }
+}
+
