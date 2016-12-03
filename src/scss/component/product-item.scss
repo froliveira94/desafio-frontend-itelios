@@ -30,7 +30,7 @@
         margin-bottom: 17px;
 
         .product-item-price-value {
-            font-size: 1.4em;
+            font-size: 1.4em;   
         }
     }
 
@@ -51,7 +51,7 @@
 
     &:hover {
         cursor: pointer;
-        background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff), color-stop(0.75, #eee));
+        background: linear-gradient(10deg,  rgba(255,255,255, .1), rgba(255,255,255, .1) 5%, rgba(255,255,255, .1),  rgba(145,136,136, .1) 95%);
         .button {
             display: block;
         }

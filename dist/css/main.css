@@ -277,6 +277,6 @@ button {
     margin-top: 26px; }
   .product-item:hover {
     cursor: pointer;
-    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff), color-stop(0.75, #eee)); }
+    background: linear-gradient(10deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0.1), rgba(145, 136, 136, 0.1) 95%); }
     .product-item:hover .button {
       display: block; }
