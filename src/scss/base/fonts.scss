@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'roboto-regular';
+  src: url('../../../dist/fonts/roboto-regular/roboto-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../../../dist/fonts/roboto-regular/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../dist/fonts/roboto-regular/roboto-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../dist/fonts/roboto-regular/roboto-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../../dist/fonts/roboto-regular/roboto-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../../dist/fonts/roboto-regular/roboto-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'roboto-bold';
+  src: url('../../../dist/fonts/roboto-bold/roboto-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../../../dist/fonts/roboto-bold/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../dist/fonts/roboto-bold/roboto-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../dist/fonts/roboto-bold/roboto-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../../dist/fonts/roboto-bold/roboto-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../../dist/fonts/roboto-bold/roboto-bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'roboto-condensed-bold';
+  src: url('.../../../dist/fonts/roboto-condensed-bold/robotocondensed-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../../../dist/fonts/robotocondensed-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../dist/fonts/roboto-condensed-bold/robotocondensed-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../dist/fonts/roboto-condensed-bold/robotocondensed-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../../dist/fonts/roboto-condensed-bold/robotocondensed-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../../dist/fonts/roboto-condensed-bold/robotocondensed-bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
