@@ -10,7 +10,7 @@ gulp.task('serve', ['sass'], function() {
         server: "./"
     });
 
-    gulp.watch("./src/scss/*.scss", ['sass']);
+    gulp.watch("./src/scss/**/*.scss", ['sass']);
     gulp.watch("./*.html").on('change', browserSync.reload);
 });
 
@@ -28,5 +28,5 @@ gulp.task('minify-css', function () {
         .pipe(gulp.dest('dist/css/'));
 });
 
-gulp.task('dev', ['serve']);
+gulp.task('server', ['serve']);
 gulp.task('build', ['minify-css']);
