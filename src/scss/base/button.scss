@@ -9,10 +9,14 @@ button {
     border-right: 1px solid $gray-alto;
     border-bottom: 1px solid $gray-alto;
     border-left: 1px solid $gray-alto;    
-    font-size: 2.1em;
+    font-size: 1.9em;
     font-family: 'roboto-condensed-bold';
     color: $blue-river-bad;
     padding: 16px 18px 16px 18px;
+
+    @media only screen and (min-width: $tablet-breakpoint){
+        font-size: 2.1em;
+    }
 
     i {
         font-size: 1.2em;
@@ -20,13 +24,16 @@ button {
         float: right;
     }
 
-    &:hover {
-        border-left: 10px solid $orange-blaze;
-        padding: 16px 18px 16px 9px;
-        
-        i {
-            color: $orange-blaze;
+    @media only screen and (min-width: $desktop-breakpoint){
+        &:hover {
+            border-left: 10px solid $orange-blaze;
+            padding: 16px 18px 16px 9px;
+            
+            i {
+                color: $orange-blaze;
+            }
         }
     }
+
 }
 

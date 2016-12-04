@@ -1,13 +1,27 @@
-.container-visited-product {
+.container-product-visited, .container-product {
+    position: relative;
     float: left;
-    width: 27%;
-
     .title {
-        margin-bottom: 24px;
+        margin: 27px 0 18px 0;
     }
 }
 
-.container-product-carousel {
-    float: left;
-    width: 67%;
+.container-product-visited {
+    width: 100%;
+    @media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint) {
+        width: 43%;
+    }
+    @media only screen and (min-width: $desktop-breakpoint){
+        width: 27%;
+    }
+}
+
+.container-product {
+    width: 100%;
+    @media only screen and (min-width: $tablet-breakpoint) and (max-width: $desktop-breakpoint){
+        width: 57%;
+    }
+    @media only screen and (min-width: $desktop-breakpoint){
+        width: 73%;
+    }
 }

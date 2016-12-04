@@ -1,7 +1,10 @@
 .product-item {
     display: block;
     width: 308px;
-    border: 1px solid $gray-ebb;
+    border-top: 1px solid $gray-ebb;
+    border-right: 1px solid $gray-ebb;
+    border-bottom: 1px solid $gray-ebb;
+    border-left: 1px solid $gray-ebb;
     min-height: 382px;
     padding: 36px 26px 26px 26px;
 
@@ -45,15 +48,21 @@
     }
 
     .button {
-        display: none;
+        display: block;
         margin-top: 26px;
     }
 
-    &:hover {
-        cursor: pointer;
-        background: linear-gradient(10deg,  rgba(255,255,255, .1), rgba(255,255,255, .1) 5%, rgba(255,255,255, .1),  rgba(145,136,136, .1) 95%);
+    @media only screen and (min-width: $desktop-breakpoint){
         .button {
-            display: block;
+            display: none;
         }
-    }
+        &:hover {
+            cursor: pointer;
+            background: linear-gradient(10deg,  rgba(255,255,255, .1), rgba(255,255,255, .1) 5%, rgba(255,255,255, .1),  rgba(145,136,136, .1) 95%);
+            .button {
+                display: block;
+            }
+        }
+    }   
+    
 }
