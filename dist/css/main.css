@@ -227,11 +227,15 @@ button {
     width: 1170px; } }
 
 .container-product-carousel .product-item {
-  float: left;
-  border-left: 0; }
+  float: left; }
   @media only screen and (min-width: 992px) {
-    .container-product-carousel .product-item .button {
-      font-size: 1.8em; } }
+    .container-product-carousel .product-item {
+      border-left: 0; }
+      .container-product-carousel .product-item .button {
+        font-size: 1.8em; } }
+  @media only screen and (min-width: 768px) {
+    .container-product-carousel .product-item {
+      border-left: 0; } }
 
 .swiper-container {
   width: 100%;
@@ -290,14 +294,18 @@ button {
 
 .product-item {
   text-decoration: none;
+  position: relative;
   display: block;
   width: 308px;
   border-top: 1px solid #edeaea;
   border-right: 1px solid #edeaea;
-  border-bottom: 1px solid #edeaea;
+  border-bottom: 0;
   border-left: 1px solid #edeaea;
   min-height: 382px;
   padding: 36px 26px 26px 26px; }
+  @media only screen and (min-width: 992px) {
+    .product-item {
+      border-bottom: 1px solid #edeaea; } }
   .product-item .product-item-image {
     display: block;
     height: 144px;
@@ -334,13 +342,14 @@ button {
     color: #353F4F;
     font-family: 'roboto-bold'; }
   .product-item .product-item-button-container {
+    box-sizing: initial;
     margin-top: 26px;
     text-align: center;
     display: block;
     position: absolute;
     z-index: 999;
     width: 100%;
-    left: 0;
+    left: -1px;
     border-left: 1px solid #edeaea;
     border-right: 1px solid #edeaea;
     border-bottom: 1px solid #edeaea; }
