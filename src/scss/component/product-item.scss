@@ -50,6 +50,9 @@
     }
 
     .product-item-button-container {
+        margin-top: 26px;
+        text-align: center;
+        display: block;
         position: absolute; 
         z-index: 999; 
         width: 100%;
@@ -62,19 +65,14 @@
         }
     }
 
-    .button {
-        display: block;
-        margin-top: 26px;
-    }
-
     @media only screen and (min-width: $desktop-breakpoint){
-        .button {
+        .product-item-button-container {
             display: none;
         }
         &:hover {
             cursor: pointer;
             background: linear-gradient(10deg,  rgba(255,255,255, .1), rgba(255,255,255, .1) 5%, rgba(255,255,255, .1),  rgba(145,136,136, .1) 95%);
-            .button {
+            .product-item-button-container {
                 display: block;
             }
         }

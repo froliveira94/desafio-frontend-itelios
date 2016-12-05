@@ -29,6 +29,15 @@
         padding-bottom: 86px;
     }
 
+    .swiper-pagination {
+        z-index: 0;
+    }
+
+    .swiper-pagination-bullet {
+        width: 11px;
+        height: 11px;
+    }
+
     .swiper-container-horizontal {
         & > {
             .swiper-pagination-bullets  {
