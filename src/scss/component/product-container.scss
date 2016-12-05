@@ -25,6 +25,14 @@
         width: 73%;
     }
 
+    @media only screen and (min-device-width : $tablet-breakpoint) and (max-device-width : $tablet-landscape-breakpoint) and (orientation : landscape) {
+        .product-item {
+            .button {
+                font-size: 1.84em;
+            }
+        }
+    }
+
     .swiper-container {
         padding-bottom: 90px;
     }

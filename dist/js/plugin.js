@@ -9,7 +9,7 @@ var swiper = new Swiper('.swiper-container', {
                 spaceBetween: 0
             },
             1199: {
-                slidesPerView: 2,
+                slidesPerView: 3,
                 spaceBetween: 0
             },
             991: {

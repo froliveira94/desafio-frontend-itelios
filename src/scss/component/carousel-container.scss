@@ -1,16 +1,16 @@
 .container-product-carousel {
     .product-item {
         float: left;
-        
+
+        @media only screen and (min-width: $tablet-breakpoint){ 
+            border-left: 0;  
+        }
+                
         @media only screen and (min-width: $desktop-breakpoint){ 
             border-left: 0;  
             .button {
                 font-size: 1.8em;
             }
-        }
-
-        @media only screen and (min-width: $tablet-breakpoint){ 
-            border-left: 0;  
         }
     }
 }

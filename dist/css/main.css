@@ -228,14 +228,14 @@ button {
 
 .container-product-carousel .product-item {
   float: left; }
+  @media only screen and (min-width: 768px) {
+    .container-product-carousel .product-item {
+      border-left: 0; } }
   @media only screen and (min-width: 992px) {
     .container-product-carousel .product-item {
       border-left: 0; }
       .container-product-carousel .product-item .button {
         font-size: 1.8em; } }
-  @media only screen and (min-width: 768px) {
-    .container-product-carousel .product-item {
-      border-left: 0; } }
 
 .swiper-container {
   width: 100%;
@@ -279,6 +279,9 @@ button {
   @media only screen and (min-width: 992px) {
     .container-product {
       width: 73%; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .container-product .product-item .button {
+      font-size: 1.84em; } }
   .container-product .swiper-container {
     padding-bottom: 90px; }
   .container-product .swiper-pagination {
@@ -296,16 +299,13 @@ button {
   text-decoration: none;
   position: relative;
   display: block;
-  width: 308px;
+  width: 100%;
   border-top: 1px solid #edeaea;
   border-right: 1px solid #edeaea;
-  border-bottom: 0;
+  border-bottom: 1px solid #edeaea;
   border-left: 1px solid #edeaea;
   min-height: 382px;
   padding: 36px 26px 26px 26px; }
-  @media only screen and (min-width: 992px) {
-    .product-item {
-      border-bottom: 1px solid #edeaea; } }
   .product-item .product-item-image {
     display: block;
     height: 144px;
@@ -342,14 +342,14 @@ button {
     color: #353F4F;
     font-family: 'roboto-bold'; }
   .product-item .product-item-button-container {
-    box-sizing: initial;
+    box-sizing: inherit;
     margin-top: 26px;
     text-align: center;
     display: block;
     position: absolute;
     z-index: 999;
     width: 100%;
-    left: -1px;
+    left: 0;
     border-left: 1px solid #edeaea;
     border-right: 1px solid #edeaea;
     border-bottom: 1px solid #edeaea; }
@@ -364,3 +364,16 @@ button {
       border-bottom: 0; }
       .product-item:hover .product-item-button-container {
         display: block; } }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .product-item .product-item-button-container {
+      position: relative;
+      border: 0; }
+      .product-item .product-item-button-container .button {
+        margin-bottom: 0; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .product-item .product-item-button-container {
+      display: block;
+      position: relative;
+      border: 0; }
+      .product-item .product-item-button-container .button {
+        margin-bottom: 0; } }
