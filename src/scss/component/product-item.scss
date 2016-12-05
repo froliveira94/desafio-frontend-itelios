@@ -1,4 +1,5 @@
 .product-item {
+    text-decoration: none;
     display: block;
     width: 308px;
     border-top: 1px solid $gray-ebb;
@@ -25,6 +26,7 @@
     .product-item-name {    
         @include text-overflow(3, 17px, 1);
         margin-bottom: 26px;
+        color: $black-shark;
     }
 
     .product-item-price {
@@ -45,6 +47,19 @@
     .product-item-price-value, .product-item-old-price-value {
         color: $blue-oxford;
         font-family: 'roboto-bold';
+    }
+
+    .product-item-button-container {
+        position: absolute; 
+        z-index: 999; 
+        width: 100%;
+        left: 0;
+        border-left: 1px solid $gray-alto;
+        border-right: 1px solid $gray-alto;
+        border-bottom: 1px solid $gray-alto;
+        .button {
+            margin-bottom: 26px;
+        }
     }
 
     .button {

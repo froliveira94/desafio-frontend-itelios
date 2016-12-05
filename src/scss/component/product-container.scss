@@ -24,4 +24,22 @@
     @media only screen and (min-width: $desktop-breakpoint){
         width: 73%;
     }
+
+    .swiper-container {
+        padding-bottom: 86px;
+    }
+
+    .swiper-container-horizontal {
+        & > {
+            .swiper-pagination-bullets  {
+                bottom: 60px;
+            }
+        }
+    }
+
+    .product-item {
+       &:hover {
+           border-bottom: 0;
+       }
+    }
 }
