@@ -227,7 +227,8 @@ button {
     width: 1170px; } }
 
 .container-product-carousel .product-item {
-  float: left; }
+  float: left;
+  border-left: 0; }
   @media only screen and (min-width: 992px) {
     .container-product-carousel .product-item .button {
       font-size: 1.8em; } }
@@ -275,7 +276,7 @@ button {
     .container-product {
       width: 73%; } }
   .container-product .swiper-container {
-    padding-bottom: 86px; }
+    padding-bottom: 90px; }
   .container-product .swiper-pagination {
     z-index: 0; }
   .container-product .swiper-pagination-bullet {
@@ -286,8 +287,6 @@ button {
     background: #353F4F; }
   .container-product .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: 60px; }
-  .container-product .product-item:hover {
-    border-bottom: 0; }
 
 .product-item {
   text-decoration: none;
@@ -342,9 +341,9 @@ button {
     z-index: 999;
     width: 100%;
     left: 0;
-    border-left: 1px solid #D4D2D2;
-    border-right: 1px solid #D4D2D2;
-    border-bottom: 1px solid #D4D2D2; }
+    border-left: 1px solid #edeaea;
+    border-right: 1px solid #edeaea;
+    border-bottom: 1px solid #edeaea; }
     .product-item .product-item-button-container .button {
       margin-bottom: 26px; }
   @media only screen and (min-width: 992px) {
@@ -352,6 +351,7 @@ button {
       display: none; }
     .product-item:hover {
       cursor: pointer;
-      background: linear-gradient(10deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0.1), rgba(145, 136, 136, 0.1) 95%); }
+      background: linear-gradient(10deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 5%, rgba(255, 255, 255, 0.1), rgba(145, 136, 136, 0.1) 95%);
+      border-bottom: 0; }
       .product-item:hover .product-item-button-container {
         display: block; } }

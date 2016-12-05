@@ -26,7 +26,7 @@
     }
 
     .swiper-container {
-        padding-bottom: 86px;
+        padding-bottom: 90px;
     }
 
     .swiper-pagination {
@@ -49,11 +49,5 @@
                 bottom: 60px;
             }
         }
-    }
-
-    .product-item {
-       &:hover {
-           border-bottom: 0;
-       }
     }
 }

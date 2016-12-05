@@ -1,6 +1,7 @@
 .container-product-carousel {
     .product-item {
         float: left;
+        border-left: 0;
 
         @media only screen and (min-width: $desktop-breakpoint){   
             .button {
