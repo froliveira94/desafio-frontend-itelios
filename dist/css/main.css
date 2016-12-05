@@ -280,7 +280,10 @@ button {
     z-index: 0; }
   .container-product .swiper-pagination-bullet {
     width: 11px;
-    height: 11px; }
+    height: 11px;
+    background: #ADADAD; }
+  .container-product .swiper-pagination-bullet-active {
+    background: #353F4F; }
   .container-product .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: 60px; }
   .container-product .product-item:hover {

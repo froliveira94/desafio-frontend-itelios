@@ -36,6 +36,11 @@
     .swiper-pagination-bullet {
         width: 11px;
         height: 11px;
+        background: $gray-silver-chalice;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: $blue-oxford;
     }
 
     .swiper-container-horizontal {
